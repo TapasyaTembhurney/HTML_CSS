@@ -7,27 +7,25 @@
 </head>
 <body>
     <form action="">
-        <label for="">Name</label>
-        <input type="text" name="userName">
+        <label for="Name">Name</label>
+        <input type="text" name="userName" id="Name">
 
         <br><br>
 
-        <label for="">Father's Name</label>
-        <input type="text" name="userFName">
+        <label for="FName">Father's Name</label>
+        <input type="text" name="userFName" id="FName">
 
         <br><br>
 
-        <label for="">Age</label>
-        <input type="number" name="userAge">
+        <label for="UAge">Age</label>
+        <input type="number" name="userAge" id="UAge">
 
         <br><br>
 
-        <label for="">Password</label>
-        <input type="password" name="userPassword">
+        <label for="Password">Password</label>
+        <input type="password" name="userPassword" id="Password">
 
         <br><br>
-
-        <input type="Submit">
 
         <!--After adding name attribute in the input tag we can resolve the issue of when there is any input blank and database has to decide where the given data is to filled like:-
         userName - "Tapasya"
@@ -40,6 +38,21 @@
         Name attribute is used as a "Key-Value Pair" 
         "Key" - text
         "Value" - userName or password-->
+
+        <br><br>
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female">
+
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male">
+        
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other">  
+
+        <br><br>
+
+        <input type="Submit">
         
     </form>
 </body>
