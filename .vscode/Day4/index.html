@@ -8,22 +8,39 @@
 <body>
     <form action="">
         <label for="">Name</label>
-        <input type="text">
+        <input type="text" name="userName">
+
+        <br><br>
+
+        <label for="">Father's Name</label>
+        <input type="text" name="userFName">
 
         <br><br>
 
         <label for="">Age</label>
-        <input type="number">
+        <input type="number" name="userAge">
 
         <br><br>
 
         <label for="">Password</label>
-        <input type="password">
+        <input type="password" name="userPassword">
 
         <br><br>
-        
+
         <input type="Submit">
 
+        <!--After adding name attribute in the input tag we can resolve the issue of when there is any input blank and database has to decide where the given data is to filled like:-
+        userName - "Tapasya"
+        userFName- "Sam"
+        userAge - "28"
+        userPassword - "husagb&6h2"
+        
+        These helps the backened part that is the database to decide where to put data if either userName or userFname is not given so because of name it can recognize easily.
+        
+        Name attribute is used as a "Key-Value Pair" 
+        "Key" - text
+        "Value" - userName or password-->
+        
     </form>
 </body>
 </html>
