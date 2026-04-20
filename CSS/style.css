@@ -35,5 +35,6 @@ ul{
 
 /* Group based selection -> We can select multiple elements all at once. */ 
 h1 , .fourth , #First{
-    background-color:orangered ;
+    background-color:rgb(255, 68, 0) ;
 }
+/* Any combination of color can be created using "rgb" */
