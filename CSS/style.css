@@ -26,10 +26,14 @@ ul{
 
 /* class based selection */
 
-.third{
+/* .third{
     background-color: hotpink;
 }
 .fourth{
     background-color: lightgray;
-}
+} */
 
+/* Group based selection -> We can select multiple elements all at once. */ 
+h1 , .fourth , #First{
+    background-color:orangered ;
+}
