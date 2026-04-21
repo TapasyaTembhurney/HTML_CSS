@@ -34,9 +34,12 @@ ul{
 } */
 
 /* Group based selection -> We can select multiple elements all at once. */ 
+
 /* h1 , .fourth , #First{
-    background-color:rgb(243, 72, 10 , 0.5) ;
-} */
+    /* RGBA -> Red Green Blue Alpha */
+    /* background-color:rgb(243, 72, 10 , 0.5) ; */
+/* } */
+
 /* Any combination of color can be created using "rgb" */
 
 h1{
@@ -48,4 +51,22 @@ h2{
     background-color: hsla(110, 97%, 88%, 0.8 );
 }
 
+#First{
+    /* RRGGBBAA -> 8-digit with transparency*/
+    background-color: #66337799; 
+
+    /* Same color just different way of writing (4-digit shorthand with transparency) */
+
+    /* background-color: #6379; */
+}
+
+.third{
+    /* Hexa decimal format of color */
+    background-color: #106767;
+}
+
+.fourth{
+    /* RGBA format */
+    background-color: #6397; 
+}
 
