@@ -47,6 +47,14 @@ h1{
     background-color: rgba(90, 121, 19, 0.3);
 }
 
+ul{
+    font-size: 20px;
+}
+
+li{
+    font-size: 1em; /*20px*/
+}
+
 h2{
     /* background-color: hsl(110, 97%, 88%); */
     background-color: hsla(110, 97%, 88%, 0.8 );
