@@ -77,7 +77,8 @@ h2{
 
 .third{
     /* Hexa decimal format of color */
-    background-color: #106767;
+    /* background-color: #106767; */
+    font: italic 700 3rem Georgia, serif;
 }
 
 .fourth{
