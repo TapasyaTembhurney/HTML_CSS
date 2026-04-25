@@ -2,11 +2,29 @@ h1{
     background-color:orange;
     /* height: 300px; */
     width: 300px;
-    border: 10px groove black;
+    /* border: 10px groove black; */
     border-radius: 5px;
     /* border-width: 15px; */
     /* border-style: groove; */
 
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
+
+    border-top: 10px solid black;
+    border-bottom: 5px solid violet;
+    border-left: 10px solid pink;
+    border-right: 5px solid aqua;
+
+}
+
+h2{
+    background-color: coral;
+    border: 3px solid yellow;
+}
+
+p{
+    background-color: rgb(93, 150, 255  );
+    
+    padding: 20px;
+    margin: 50px;
 }
