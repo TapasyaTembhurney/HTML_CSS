@@ -1,0 +1,12 @@
+h1{
+    background-color:orange;
+    /* height: 300px; */
+    width: 300px;
+    border: 10px groove black;
+    border-radius: 5px;
+    /* border-width: 15px; */
+    /* border-style: groove; */
+
+    padding: 10px;
+    margin: 10px;
+}
