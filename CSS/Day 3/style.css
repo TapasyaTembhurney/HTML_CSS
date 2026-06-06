@@ -1,3 +1,28 @@
 h1{
     background-color: crimson;
 }
+
+.class1{
+    background-color: yellow;
+}
+
+#id1{
+    background-color: pink;
+}
+
+#id1{
+    background-color: coral;
+    background-color: deeppink;
+}
+
+h1{
+    background-color:darkorange;
+}
+
+/* .class1{
+    background-color: yellow !important;
+} */
+
+h2{
+    background-color: aqua !important;
+}
