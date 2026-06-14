@@ -1,0 +1,23 @@
+.flag{
+    height: 250px;
+    width:400px;
+    background-color:red;
+    position: relative;
+}
+
+.inflag{
+    height: 100px;
+    width: 400px;
+    background-color: navy;
+    position:absolute;
+    top:30%;
+}
+
+.circle{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color:white;
+    position:absolute;
+    left:140px;
+}
