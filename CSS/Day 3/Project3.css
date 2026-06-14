@@ -1,0 +1,74 @@
+/* .flag{
+    height: 250px;
+    width: 400px;
+    background-color:yellow;
+    position: relative;
+}
+
+.inflag_sq1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.inflag_sq2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:absolute;
+    bottom: 0px;
+}
+
+.inflag_rec1{
+    height: 100px;
+    width:250px;
+    background-color:blue;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.inflag_rec2{
+    height: 100px;
+    width:250px;
+    background-color:blue;
+    position:absolute;
+    bottom: 0px;
+    right:0px;
+} */
+
+.flag{
+    height: 250px;
+    width: 400px;
+    background-color: yellow;
+    position:relative;
+}
+
+.box{
+    background-color: blue;
+}
+
+.first , .third{
+    height: 100px;
+    width: 100px;
+}
+
+.third{
+    position:absolute;
+    bottom:0px;
+}
+
+.second , .fourth{
+    height:100px;
+    width:250px;
+    position: absolute;
+}
+
+.second{
+    top:0px;
+    right:0px;
+}
+
+.fourth{
+    right: 0px;
+    bottom:0px;
+}
