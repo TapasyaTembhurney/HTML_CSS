@@ -1,0 +1,38 @@
+.main{
+    background-color:#ffffff;
+    height:200px;
+    width: 300px;
+    position:relative;
+}
+
+.circle{
+    height:100px;
+    width: 100px;
+    background-color: red;
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    /* margin: 0px; */
+    left:90px;
+}
+
+/* .main1{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+
+.main2{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius:50%;
+    position: absolute;
+    top: 60px;
+    /* left: 6rem; */
+    left: 15vh;
+    /* left: 64px; */
+} */
