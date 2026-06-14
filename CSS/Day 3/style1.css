@@ -1,3 +1,14 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+.main{
+    background-color: crimson;
+    height: 1200px;
+    position: relative;
+}
+
 h2{
     background-color:chartreuse;
     height:100px;
@@ -7,7 +18,33 @@ h2{
 
     position:relative;
     /* position:absolute; */
-    left:100px;
-    top:100px;
+    left :100px;
+    top:10px;
+}
+
+h3{
+    background-color: chocolate;
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    /* z-index: 12; */
+}
+
+h4{
+    background-color: cornflowerblue;
+    position:sticky;
+    top: 10px;
+    left: 100px;
+}
+
+p{
+    background-color: gold;
+    position:absolute;
+    left: 50px;
+    top: 0px;
+    margin: 0px;
+    /* padding-top: 90px; */
+    /* z-index: 15; */
     
 }
+
