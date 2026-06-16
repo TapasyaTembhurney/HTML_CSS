@@ -1,0 +1,49 @@
+.container{
+    background-color: aquamarine;
+    display: flex;
+    height: 600px;
+    /* flex-direction: row-reverse; */
+    /* flex-direction:column; */
+    /* justify-content: center;
+    justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: start; */
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    text-align:center;
+    /* flex-wrap:wrap; */
+    /* flex-wrap:wrap-reverse; */
+    gap:5px;
+}
+
+/* Justify content : main axis ke around kaam karta hai main axis decide kaun kaerga? aapka flex-direction property */
+/* align-items work around cross axis */
+
+.box{
+    width: 100px;
+    height: 100px;
+    /* margin: 20px; */
+}
+
+.first{
+    background-color: yellow;
+    /* flex-grow: 0.25; */
+    /* flex-basis:200px; */
+    align-self:flex-start;
+} 
+.second{
+    background-color: Green;
+    /* flex-grow:1; */
+    /* flex-shrink: 5; */
+    flex:1;
+}
+.third{
+    background-color: Red;
+    /* flex-grow:0.25; */
+}
+.fourth{
+    background-color:chartreuse;
+    /* flex-grow:0.25; */
+}
