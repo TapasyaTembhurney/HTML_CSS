@@ -32,3 +32,35 @@ console.log("Type conversion :",true == '1');
 
 console.log(null == undefined);
 console.log(null === undefined);
+
+// Empty string and zero
+
+console.log('' == 0);
+console.log('' === 0);
+
+// Null and false
+console.log(null == false);
+
+// Undefined and zero
+
+console.log(undefined == 0);
+
+// NaN comparisons
+
+console.log("NaN comparisons :",NaN == NaN);
+console.log("NaN comparisons :",NaN === NaN);
+
+// String and Boolean
+
+console.log('true' == true);
+console.log('false' == false);
+
+// String numbers and Numbers
+
+console.log('001' == 1);
+console.log('010' == 10);
+
+// NUMBER AND NULL
+
+console.log(0 == null);
+console.log(0 == undefined);
