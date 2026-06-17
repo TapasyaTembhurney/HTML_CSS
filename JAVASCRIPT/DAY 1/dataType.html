@@ -58,6 +58,20 @@
         let null_var = null;
         console.log(null_var);
 
+        // Program
+
+        console.log('\n');
+        let loggedInUser = null; //no one logged in yet(intentional empty)
+
+        function getUser(){
+            //forgot to assign (accidental empty)
+            let name;
+            return name;
+        }
+
+        console.log(loggedInUser); //Null
+        console.log(getUser()); //Undefined
+
         
     </script>
 </body>
